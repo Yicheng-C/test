@@ -1,2 +1,7 @@
-for i in range(1,2,1): #range(起始值, 結束值, 增量)
-    print(i)
+i = 2
+while i <= 9:
+    j = 2
+    while j <= 9:
+        print(f"{i:d} * {j:d} = {i*j:d}", end="\t" if j < 9 else "\n")
+        j += 1
+    i += 1
